@@ -69,11 +69,11 @@ const auth = betterAuth({
             primaryCategoryId: {
               type: "string",
               required: true,
-              // references: {
-              //   field: "id",
-              //   model: "category",
-              //   onDelete: "restrict",
-              // },
+              references: {
+                field: "id",
+                model: "category",
+                onDelete: "restrict",
+              },
             },
             status: {
               type: "string",
