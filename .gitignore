@@ -1,0 +1,8 @@
+# deps
+.DS_Store
+node_modules/
+.dist
+.env
+
+# Generated files
+src/db/schema2.ts
